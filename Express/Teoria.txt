@@ -1,0 +1,63 @@
+Express es un framework web más popular de Node.js de uso profesional para desarrollo back-end.
+Facilita el proceso de creación de servidores.
+
+Las principales caracteristicas de express es que proporciona:
+- mecanismo para definir el routing- siendo mucho más facil definir las rutas con express que directamente con node. No harán falta tantos condicionales
+- Está enfocado en alto rendimiento, permitiendo desarrollar apps más rápidamente y con código más conciso. Además se podrán implementar con un alto rendimiento al momento de responder esas solicitudes del cliente.
+
+
+Los conceptos básicos:
+
+CRUD- Create Read Update Delete.
+Operaciones básicas que podemos realizar con la información almacenada.
+Normalmente estas operaciones estarán estrechamente relacionadas con las APIs y los verbos HTTP.
+
+CRUD    -   VERBOS HTTP
+CREATE  -   POST -- crear un recurso
+READ    -   GET -- obtener un recurso
+UPDATE  -   PUT -- acutalizar un recurso
+DELETE  -   DELETE -- borrar un recurso
+
+
+API (Application programming interface, Interfaz de programación de aplicaciones.)
+
+Es un tipo de interfaz de software que permite que dos o maás programas se comuniquen entre si. Permite desarrollar un software que ofrezca un servicio a otro software.
+No es usada directamente por el usuiaro final sino por el programadore que usa la API para implementar su programa.
+Nosotros incorporamos esa api en nuestro codigo para solicitar información al servico que ofrece esa información. Y lo vamos a incorporar si estamos en el frontend o lo desarrollaremos si estamos en el back endE
+Es decir, es la conexión entre el cliente y el servidor que permite que el cliente realice solicitudes al servidor.
+
+En una api, el servidor tienen una serie de funciones disponibles para usarse bajo ciertas condiciones. El cliente puede acceder a esas funciones a través de la api, que es como un conjunto de caminos que se van a especificar y si el cliente quiere acceder a cierta funcionalidadr puede acceder a ese camino, el servidor sabe lo que tiene que hacer y le ofrece el servicio solicitado.
+
+Ejemplo de API, servicios que ofrecen información sobre climatologia.
+Nosotros en nuestra aplicacion podemos acceder a la información metereológica a través del consumo de una api que ofrezca ese servicio.
+El programador de backend, sería el encargado de programar esa api, mientras que el del frontend, de consumirla.
+
+Es decir, nos permiten incorporar información de otro servicio o software a nuestra aplicación.
+
+Normalmente la información se intercambia en formato JSON.
+
+REST
+
+Estilo de arquitectura de software para sistemas hipermedia distribuidos como la www
+
+Represetational State Transfer.
+
+RESTFul API
+Es una Api basada en Rest
+
+
+
+
+INICIO DE UNA APLICACION QUE USA Express
+Express es un paquete por lo que primero empezamos en la terminal en la ruta de nuestro proyecto e inicializamos un paquete con 
+npm init
+npm install express
+
+añade al packaje.json
+"dependencies": {
+    "express": "^4.18.2"
+  }
+
+
+
+
